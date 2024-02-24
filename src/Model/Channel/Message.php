@@ -200,6 +200,20 @@ class Message {
 	 */
 	public $webhook_id;
 
+    /**
+     * Include to make your message a reply
+     *
+     * @var Message|null
+     */
+    public $referenced_message;
+
+    /**
+     * Components to include with the message
+     *
+     * @var array|null
+     */
+    public $components;
+
 	/**
 	 * @param array $content
 	 */

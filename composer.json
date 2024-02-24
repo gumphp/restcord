@@ -1,6 +1,6 @@
 {
-    "name":         "restcord/restcord",
-    "description":  "REST Library for the Discord API",
+    "name":         "gumphp/restcord",
+    "description":  "REST Library for the Discord API fork from restcord/restcord",
     "type":         "library",
     "require":      {
         "php":                        "^7.3|^8.0",
